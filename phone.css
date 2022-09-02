@@ -1,0 +1,93 @@
+#row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#row img{
+    display: block;
+    margin: auto;
+}
+#row>div>ul>div{
+    display: flex;
+    flex-direction: column;
+}
+#row div ul{
+    display: flex;
+    justify-content: space-around;
+}
+#row div ul li a{
+    padding: 7px 15px;
+    font-size: 1.3rem;
+}
+#mid{
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+#mid>div{
+    height: 2000px;
+    /* padding: 10px;   */
+    margin: 50px;
+   
+
+}
+#photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#photos img{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus>div{
+    flex-direction: column;
+}
+.img-about{
+    width: 200px;
+    height: 150px;
+}
+.aboutus p{
+    width: 90%;
+    text-align: justify;
+}
+.cof{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cofounder{
+    padding: 10px 20px;
+}
+
+.founders{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+.founders img{
+    width: 150px;
+    height: 150px;
+}
+
+.webdeveloper h3{
+    font-size: 15px;
+}
+form{
+    margin: 100px 10%;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea{
+    width: 80%;
+}

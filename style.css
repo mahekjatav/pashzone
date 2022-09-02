@@ -1,0 +1,389 @@
+body{
+    margin: 0px 0px;
+    background-color: rgb(255, 228, 198);
+    /* background: url("iim.jpg") repeat center center/cover;
+    width: 100vw;
+    height: 100vh; */
+   
+}
+.navbar{
+    position: relative;
+}
+body::before
+/* , .contact::before, .aboutus::before */
+{
+    background: url("iim.jpg") no-repeat center center/cover;
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 800px;
+    z-index: -3;
+    opacity: 0.4;
+   
+} 
+
+#logo{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+    /* background-color: brown; */
+}
+#cart{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px 10px 500px;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+ 
+}
+#row{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px;
+    /* box-shadow: 2px 2px 20px 1px rgb(71, 13, 13); */
+   
+}
+#row div ul{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+}
+#row>div>ul>div{
+    display: flex;
+}
+#row div ul li a{
+    
+   padding: 20px 30px;
+   font-size: 1.3rem;
+   transition: all 0.25s ease-in-out;
+   font-weight: bold;
+   text-decoration: none; 
+   color: rgb(53, 11, 11);
+}
+#row div ul li a:hover{
+    background-color: rgb(244, 240, 240);
+    color: brown;
+    border-radius: 10px;
+}
+#sample{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 70px;
+   padding: 80px;
+}
+#textmain{
+    font-size: 50px;
+    margin-bottom: 0px;
+   
+}
+#shop{
+    padding: 13px 18px ;
+    border-radius: 5px;
+    background-color: rgb(103, 24, 24);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    /* box-shadow: 0px 0px 10px 0.4px rgba(0, 0, 0, 0.743); */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#shop:hover{
+    background-color:  rgb(134, 42, 42);
+   
+} 
+#mid{
+    display: flex;
+    justify-content: center;
+    
+}
+#mid>div{
+    background-color: white;
+    width: 97vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 5px 10px 30px 5px  rgb(103, 59, 30);
+}
+.tshirt-text{
+    font-size: 40px;
+    margin-top: 0px;
+    color:  rgb(86, 56, 23);
+}
+
+#photos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 241, 233, 0.734);
+  padding: 10px;
+  border-radius: 10px;
+} 
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+
+}
+.photo{
+    width: 270px;
+    height: 270px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin: 8px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+#about{
+    
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 15%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(248, 239, 227, 0.648);
+}
+.aboutus>h3{
+    font-size: 40px;
+    /* color: rgb(112, 37, 37); */
+
+}
+.aboutus>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-about{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+.aboutus p{
+    font-size: 15px;
+    width: 40%;;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.teamm{
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0px 0px 0px;
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.founders{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.teamm h2{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid rgb(87, 27, 27);
+    border-radius: 50px;
+    margin: 9% 0px;
+    padding: 0px 20px;
+}
+.cofounder{
+    background-color: rgb(238, 218, 198);
+    padding: 10px 50px;
+    height: 60%;
+    /* border: 1px solid rgb(75, 25, 25); */
+    border-radius: 20px;
+    margin: 20px 50px;
+    
+}
+.cof{
+    display: flex;
+    flex-direction: row;
+
+}
+.founders h4{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(112, 37, 37);
+}
+
+.founders img{
+    width: 200px;
+    height: 190px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+}
+.founders p{
+    padding-left: 20px;
+}
+.webdeveloper{
+    display: flex;
+    border: 1px solid rgb(229, 178, 134);
+    flex-direction: column;
+    align-items: center;
+    width: 62%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0.1px rgb(91, 80, 15);
+
+}
+
+
+.webdeveloper h3{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.webdeveloper h4{
+    color: rgb(78, 30, 30);
+    font-size: 20px;
+    margin: 5px;
+}
+.webdeveloper p{
+    width: 80%;
+    text-align: center;
+}
+.contact{
+    padding: 50px 0px;
+    width: 100%;
+  
+  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 20%;
+    padding: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 50px 5px rgb(101, 67, 49);
+    border-radius: 10px;
+    border: 10px solid rgb(247, 225, 205);
+    transition: all 0.5s ease-in-out;
+}
+form:hover{
+    box-shadow: 20px 20px 50px 10px rgb(101, 67, 49);
+    transform: scale(1.05);
+
+}
+form h2{
+    font-size: 35px;
+}
+form p{
+    font-size: 18px;
+}
+input[type=text],
+input[type=number],
+input[type=email],
+textarea{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+input[type=submit]{
+    background-color: rgb(74, 34, 34);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: rgb(104, 61, 61);
+    transform: scale(1.1);
+}
+
+#team{
+    background-color: brown;
+}
+
+#foot{
+    
+    background-color: rgb(63, 50, 50);
+    height: 10rem;
+    bottom: 0;
+    width: 100%;
+     position: relative;
+     font-size: 17px;
+   }
+   #foot{
+    padding: 20px;
+   }
+
+
+footer a{
+    color: rgb(253, 246, 226);
+    text-decoration: none;
+    display: block;
+}
+footer li{
+    padding: 10px;
+}
+
+.con{
+    color: wheat;
+    list-style-type: none;
+}
+   
+/* =====gallery====== */
+
+#name{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+   color: rgb(255, 255, 255);
+   background-color: rgba(103, 56, 20, 0.74);
+    width: 150px;
+    padding: 0px 13px;
+   
+    border-radius: 10px;
+}
+#gallery{
+    margin: 30px;
+    border: 2px solid rgb(47, 12, 12, 0.774);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 7px rgba(47, 12, 12, 0.774);
+}
+#gallery div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 1.5rem;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 30px;
+    /* background-color: rgb(255, 221, 203); */
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+
+}
+.image:hover{
+    transform: scale(1.15);
+}
+   
